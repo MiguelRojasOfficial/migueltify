@@ -24,3 +24,46 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes expand {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-expand {
+  animation: expand 1.5s linear forwards;
+}
+
+@layer utilities {
+  @keyframes grow-bar {
+    0% {
+      width: 0%;
+      background-color: black;
+    }
+    100% {
+      width: 100%;
+      background-color: #dc2626;
+    }
+  }
+
+  .animate-grow-bar {
+    animation: grow-bar 1.5s ease-in-out forwards;
+  }
+}
+
+@keyframes growLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16rem; 
+  }
+}
+
+.animate-growLine {
+  animation: growLine 1.5s forwards;
+}
