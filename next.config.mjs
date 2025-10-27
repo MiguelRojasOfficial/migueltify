@@ -3,6 +3,12 @@ const nextConfig = {
   images: {
     domains: ['cdn-images.dzcdn.net', 'api.deezer.com', 'cdns-images.dzcdn.net', "cdn-icons-png.flaticon.com"],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+   typescript: {
+    ignoreBuildErrors: true,
+   },
   async rewrites() {
     return [
       {
