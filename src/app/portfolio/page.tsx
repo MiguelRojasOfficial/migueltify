@@ -11,28 +11,28 @@ const projects = [
     name: 'Miguelflix',
     img: '/images/miguelflix.png',
     description: 'Next + React + Typescript + Tailwind + CSS + API de Contentful',
-    href: 'https://tu-proyecto-en-vercel.vercel.app'
+    href: 'https://miguelflix.onrender.com'
   },
   {
     id: 2,
     name: 'Miguel TV',
     img: '/images/migueltv.png',
     description: 'Next + React + Typescript + Tailwind + CSS + API  de TMDb',
-    href: 'https://tu-proyecto-en-vercel.vercel.app'
+    href: 'https://migueltv.onrender.com'
   },
   {
     id: 3,
     name: 'MiguelStore',
     img: '/images/miguelstore.png',
     description: 'Next + React + Typescript + Tailwind + CSS',
-    href: 'https://netflix-clon.vercel.app'
+    href: 'https://miguelstore.onrender.com'
   },
   {
     id: 4,
     name: 'Miguel CRM',
     img: '/images/miguelcrm.png',
     description: 'Next + React + Typescript + Tailwind + CSS',
-    href: 'https://netflix-clon.vercel.app'
+    href: 'https://miguelcrm.onrender.com'
   },
   {
     id: 5,
